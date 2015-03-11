@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{03291976-05EC-45B9-8E72-D23586EC7E79}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GFX1</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Assignment1.cpp" />
+    <ClCompile Include="Box2d.cpp" />
+    <ClCompile Include="Box2d2.cpp" />
+    <ClCompile Include="Box3D.cpp" />
+    <ClCompile Include="Box3D2.cpp" />
+    <ClCompile Include="Box3D3.cpp" />
+    <ClCompile Include="DirectXFPSCamera.cpp" />
+    <ClCompile Include="Circle2D.cpp" />
+    <ClCompile Include="Color4f.cpp" />
+    <ClCompile Include="Debug.cpp" />
+    <ClCompile Include="DirectXFont.cpp" />
+    <ClCompile Include="DirectXGraphics.cpp" />
+    <ClCompile Include="CallbackQueue.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="IGraphics.cpp" />
+    <ClCompile Include="IInput.cpp" />
+    <ClCompile Include="ISystem.cpp" />
+    <ClCompile Include="junk.cpp" />
+    <ClCompile Include="KeyCodes.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="Model3D.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="OpenGLGraphics.cpp" />
+    <ClCompile Include="Sphere.cpp" />
+    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="Texture2D.cpp" />
+    <ClCompile Include="Thread.cpp" />
+    <ClCompile Include="Vector3f.cpp" />
+    <ClCompile Include="Vector4f.cpp" />
+    <ClCompile Include="WindowsInput.cpp" />
+    <ClCompile Include="WindowsSystem.cpp" />
+    <ClCompile Include="World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Assignment1.h" />
+    <ClInclude Include="Box2d.h" />
+    <ClInclude Include="Box2d2.h" />
+    <ClInclude Include="Box3D2.h" />
+    <ClInclude Include="Box3D3.h" />
+    <ClInclude Include="DirectXFPSCamera.h" />
+    <ClInclude Include="Circle2D.h" />
+    <ClInclude Include="Color4f.h" />
+    <ClInclude Include="Debug.h" />
+    <ClInclude Include="DirectXGraphics.h" />
+    <ClInclude Include="DirectXFont.h" />
+    <ClInclude Include="Box3D.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="ICamera.h" />
+    <ClInclude Include="IFpsCamera.h" />
+    <ClInclude Include="IGfxObject.h" />
+    <ClInclude Include="IGraphics.h" />
+    <ClInclude Include="IInput.h" />
+    <ClInclude Include="IKeyCallback.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="IWorkUnit.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="IMouseCallback.h" />
+    <ClInclude Include="ISubSystem.h" />
+    <ClInclude Include="ISystem.h" />
+    <ClInclude Include="junk.h" />
+    <ClInclude Include="KeyCodes.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="CallbackQueue.h" />
+    <ClInclude Include="Model3D.h" />
+    <ClInclude Include="OpenGLGraphics.h" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="Texture2D.h" />
+    <ClInclude Include="Thread.h" />
+    <ClInclude Include="Vector3f.h" />
+    <ClInclude Include="Vector4f.h" />
+    <ClInclude Include="WindowProcCallback.h" />
+    <ClInclude Include="WindowsInput.h" />
+    <ClInclude Include="WindowsSystem.h" />
+    <ClInclude Include="World.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib" />
+    <Library Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib\d3d9.lib" />
+    <Library Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib\OpenGL32.Lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

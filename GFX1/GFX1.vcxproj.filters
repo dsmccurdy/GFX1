@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{abde1f03-f884-4155-89a2-e4ad5c3dd23f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assignments">
+      <UniqueIdentifier>{17cfa390-b537-4823-898b-700e54e5cf8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{f1751bc3-409a-40a8-ac3e-f294556c7e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input">
+      <UniqueIdentifier>{45b3a02f-a932-403a-bb55-b543d2df10b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input\Interfaces">
+      <UniqueIdentifier>{a03df9ff-b9e5-460f-925a-1d42b4973def}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics">
+      <UniqueIdentifier>{39b2d5f4-15d4-40a0-b1ad-1e4861f10b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics\OpenGL">
+      <UniqueIdentifier>{69262c55-768e-4b49-8bf2-49262cecde49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics\DirectX">
+      <UniqueIdentifier>{d7b6e079-3da8-4a67-9a29-a7503b6b5816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics\Interfaces">
+      <UniqueIdentifier>{a831c2d6-ba8e-4a8a-8322-5a1ed9cb205c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\System">
+      <UniqueIdentifier>{4c655f4a-8370-4455-885d-57daf3577f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\System\Windows">
+      <UniqueIdentifier>{62baf42b-092b-450a-92ab-642e588b0018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\System\Interfaces">
+      <UniqueIdentifier>{ee6b0c03-ba0c-4b85-8cba-b626be058c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input\WindowsInput">
+      <UniqueIdentifier>{dddb5a6c-6087-401a-ac52-5c3dce6541ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math">
+      <UniqueIdentifier>{8de3c88d-c009-459a-b0b2-d582a6645f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\World">
+      <UniqueIdentifier>{cd576de7-62b6-4288-9050-d7ddeabb2c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assignments\old">
+      <UniqueIdentifier>{8153719b-5788-4587-b9ca-ffaf6db90b8d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectXGraphics.cpp">
+      <Filter>Engine\Graphics\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="IGraphics.cpp">
+      <Filter>Engine\Graphics\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLGraphics.cpp">
+      <Filter>Engine\Graphics\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="ISystem.cpp">
+      <Filter>Engine\System\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsSystem.cpp">
+      <Filter>Engine\System\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyCodes.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="IInput.cpp">
+      <Filter>Engine\Input\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsInput.cpp">
+      <Filter>Engine\Input\WindowsInput</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXFont.cpp">
+      <Filter>Engine\Graphics\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4f.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3f.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Color4f.cpp">
+      <Filter>Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="junk.cpp">
+      <Filter>Assignments</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CallbackQueue.cpp">
+      <Filter>Engine\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Engine\System</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Engine\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment1.cpp">
+      <Filter>Assignments\old</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2d.cpp">
+      <Filter>Assignments\old</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2d2.cpp">
+      <Filter>Assignments\old</Filter>
+    </ClCompile>
+    <ClCompile Include="Box3D.cpp">
+      <Filter>Assignments\old</Filter>
+    </ClCompile>
+    <ClCompile Include="Box3D2.cpp">
+      <Filter>Assignments\old</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle2D.cpp">
+      <Filter>Assignments\old</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Assignments\old</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Assignments\old</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXFPSCamera.cpp">
+      <Filter>Engine\Graphics\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Engine\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Engine\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Box3D3.cpp">
+      <Filter>Assignments\old</Filter>
+    </ClCompile>
+    <ClCompile Include="Model3D.cpp">
+      <Filter>Assignments\old</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Assignments</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectXGraphics.h">
+      <Filter>Engine\Graphics\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="IGfxObject.h">
+      <Filter>Engine\Graphics\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IGraphics.h">
+      <Filter>Engine\Graphics\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLGraphics.h">
+      <Filter>Engine\Graphics\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="ISystem.h">
+      <Filter>Engine\System\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ISubSystem.h">
+      <Filter>Engine\System\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsSystem.h">
+      <Filter>Engine\System\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="IInput.h">
+      <Filter>Engine\Input\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsInput.h">
+      <Filter>Engine\Input\WindowsInput</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowProcCallback.h">
+      <Filter>Engine\System\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="IKeyCallback.h">
+      <Filter>Engine\Input\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyCodes.h">
+      <Filter>Engine\Input\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXFont.h">
+      <Filter>Engine\Graphics\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="IMouseCallback.h">
+      <Filter>Engine\Input\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4f.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3f.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Color4f.h">
+      <Filter>Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="junk.h">
+      <Filter>Assignments</Filter>
+    </ClInclude>
+    <ClInclude Include="ICamera.h">
+      <Filter>Engine\Graphics\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IFpsCamera.h">
+      <Filter>Engine\Graphics\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="IWorkUnit.h">
+      <Filter>Engine\System\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CallbackQueue.h">
+      <Filter>Engine\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Engine\System</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Engine\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment1.h">
+      <Filter>Assignments\old</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2d.h">
+      <Filter>Assignments\old</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2d2.h">
+      <Filter>Assignments\old</Filter>
+    </ClInclude>
+    <ClInclude Include="Box3D.h">
+      <Filter>Assignments\old</Filter>
+    </ClInclude>
+    <ClInclude Include="Box3D2.h">
+      <Filter>Assignments\old</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle2D.h">
+      <Filter>Assignments\old</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Assignments\old</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Assignments\old</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXFPSCamera.h">
+      <Filter>Engine\Graphics\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Engine\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Engine\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Box3D3.h">
+      <Filter>Assignments\old</Filter>
+    </ClInclude>
+    <ClInclude Include="Model3D.h">
+      <Filter>Assignments\old</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Assignments</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib\OpenGL32.Lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib\d3d9.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib">
+      <Filter>Libs</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
